@@ -22,7 +22,6 @@ if( document.getElementById("contributions-calendar") ){
 
   var ul = cal.getElementsByClassName("legend");
   var li = ul[0].childNodes;
-  console.log(li);
   li[1].style.background = "#eee";
   li[3].style.background = "#bfbffe";
   li[5].style.background = "#8080fe";
